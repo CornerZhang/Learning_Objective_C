@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6518D21519B695460090EDD4 /* ClassPropert.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6518D21419B694950090EDD4 /* ClassPropert.mm */; };
 		65D0269717E499F3004883FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D0269617E499F3004883FE /* Foundation.framework */; };
 		65D0269E17E499F3004883FE /* ProgrammingInObj_c.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65D0269D17E499F3004883FE /* ProgrammingInObj_c.1 */; };
-		65D80BC8195FA3DA00DBE9A0 /* AppRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D80BC4195FA3DA00DBE9A0 /* AppRoot.m */; };
+		65D2BF481A2180D500AA5F0C /* Collections.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65D2BF441A21759800AA5F0C /* Collections.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,12 +28,15 @@
 /* Begin PBXFileReference section */
 		6518D21419B694950090EDD4 /* ClassPropert.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ClassPropert.mm; sourceTree = "<group>"; };
 		653F5B7419ACCBA700B212CD /* ClassRunTimeChecking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassRunTimeChecking.m; sourceTree = "<group>"; };
+		6569CC851A07BB3A002ADBAF /* KeyValue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyValue.mm; sourceTree = "<group>"; };
 		65B04398195EF82D0043CE99 /* PropertyList.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PropertyList.mm; sourceTree = "<group>"; };
 		65B0439A195EF8A70043CE99 /* Protocol.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Protocol.mm; sourceTree = "<group>"; };
 		65D0269317E499F3004883FE /* ProgrammingInObj-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ProgrammingInObj-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D0269617E499F3004883FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65D0269C17E499F3004883FE /* ProgrammingInObj-c-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProgrammingInObj-c-Prefix.pch"; sourceTree = "<group>"; };
 		65D0269D17E499F3004883FE /* ProgrammingInObj_c.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ProgrammingInObj_c.1; sourceTree = "<group>"; };
+		65D2BF441A21759800AA5F0C /* Collections.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Collections.mm; sourceTree = "<group>"; };
+		65D2BF461A21794A00AA5F0C /* Objective-C_nil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "Objective-C_nil.mm"; sourceTree = "<group>"; };
 		65D80BC3195FA3DA00DBE9A0 /* AppRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRoot.h; sourceTree = "<group>"; };
 		65D80BC4195FA3DA00DBE9A0 /* AppRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRoot.m; sourceTree = "<group>"; };
 		65D80BC5195FA3DA00DBE9A0 /* BackgroundProcessing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BackgroundProcessing.mm; sourceTree = "<group>"; };
@@ -97,6 +99,9 @@
 				65D80BCC195FA71100DBE9A0 /* NSOrderedSetDemo.mm */,
 				65D80BCE195FA8F100DBE9A0 /* NSCountedSetDemo.mm */,
 				65D80BD0195FABAC00DBE9A0 /* ClassWithSubscripting.mm */,
+				6569CC851A07BB3A002ADBAF /* KeyValue.mm */,
+				65D2BF461A21794A00AA5F0C /* Objective-C_nil.mm */,
+				65D2BF441A21759800AA5F0C /* Collections.mm */,
 				65D0269D17E499F3004883FE /* ProgrammingInObj_c.1 */,
 				65D0269B17E499F3004883FE /* Supporting Files */,
 			);
@@ -162,8 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6518D21519B695460090EDD4 /* ClassPropert.mm in Sources */,
-				65D80BC8195FA3DA00DBE9A0 /* AppRoot.m in Sources */,
+				65D2BF481A2180D500AA5F0C /* Collections.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
