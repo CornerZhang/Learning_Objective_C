@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A94480D1C899CB1004B75A6 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A94480C1C899CB1004B75A6 /* Category.m */; };
 		65D0269717E499F3004883FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D0269617E499F3004883FE /* Foundation.framework */; };
 		65D0269E17E499F3004883FE /* ProgrammingInObj_c.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65D0269D17E499F3004883FE /* ProgrammingInObj_c.1 */; };
-		65D2BF481A2180D500AA5F0C /* Collections.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65D2BF441A21759800AA5F0C /* Collections.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A94480C1C899CB1004B75A6 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
 		6518D21419B694950090EDD4 /* ClassPropert.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ClassPropert.mm; sourceTree = "<group>"; };
 		653F5B7419ACCBA700B212CD /* ClassRunTimeChecking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassRunTimeChecking.m; sourceTree = "<group>"; };
 		6569CC851A07BB3A002ADBAF /* KeyValue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyValue.mm; sourceTree = "<group>"; };
@@ -102,6 +103,7 @@
 				6569CC851A07BB3A002ADBAF /* KeyValue.mm */,
 				65D2BF461A21794A00AA5F0C /* Objective-C_nil.mm */,
 				65D2BF441A21759800AA5F0C /* Collections.mm */,
+				0A94480C1C899CB1004B75A6 /* Category.m */,
 				65D0269D17E499F3004883FE /* ProgrammingInObj_c.1 */,
 				65D0269B17E499F3004883FE /* Supporting Files */,
 			);
@@ -167,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D2BF481A2180D500AA5F0C /* Collections.mm in Sources */,
+				0A94480D1C899CB1004B75A6 /* Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
